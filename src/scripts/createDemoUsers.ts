@@ -26,7 +26,7 @@ const createDemoUsers = async (): Promise<void> => {
 
     const demoUsers = [
       {
-        email: 'employee@smartswap.local',
+        email: 'employee@smartswap.app',
         password: 'password123',
         firstName: 'John',
         lastName: 'Employee',
@@ -36,7 +36,7 @@ const createDemoUsers = async (): Promise<void> => {
         userLogin: scheduleEntries[0]?.userLogin
       },
       {
-        email: 'manager@smartswap.local',
+        email: 'manager@smartswap.app',
         password: 'password123',
         firstName: 'Sarah',
         lastName: 'Manager',
@@ -46,7 +46,7 @@ const createDemoUsers = async (): Promise<void> => {
         userLogin: scheduleEntries[1]?.userLogin
       },
       {
-        email: 'admin@smartswap.local',
+        email: 'admin@smartswap.app',
         password: 'password123',
         firstName: 'Alex',
         lastName: 'Admin',
@@ -56,7 +56,7 @@ const createDemoUsers = async (): Promise<void> => {
         userLogin: scheduleEntries[2]?.userLogin
       },
       {
-        email: 'developer@smartswap.local',
+        email: 'developer@smartswap.app',
         password: 'password123',
         firstName: 'Dev',
         lastName: 'User',
@@ -115,10 +115,10 @@ const createDemoUsers = async (): Promise<void> => {
 
     // Display login credentials
     logger.info(`\n🔐 Demo User Credentials:`);
-    logger.info(`Employee: employee@smartswap.local / password123`);
-    logger.info(`Manager: manager@smartswap.local / password123`);
-    logger.info(`Admin: admin@smartswap.local / password123`);
-    logger.info(`Developer: developer@smartswap.local / password123`);
+    logger.info(`Employee: employee@smartswap.app / password123`);
+    logger.info(`Manager: manager@smartswap.app / password123`);
+    logger.info(`Admin: admin@smartswap.app / password123`);
+    logger.info(`Developer: developer@smartswap.app / password123`);
     logger.info(`\nAll users are linked to real schedule data and ready for testing!`);
 
   } catch (error) {
